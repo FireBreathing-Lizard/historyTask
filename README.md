@@ -1,2 +1,2 @@
-# historyTask
+# HistoryTask
 History task 1 
