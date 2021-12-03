@@ -1,75 +1,23 @@
-body{
-    margin: 0;
-    background: black;
-}
-
-h1{
-    margin: 0;
-}
-
-.page-head{
+header{
     text-align: center;
     width: auto;
-    height: 120px;
-    background: white;
+    background: cornflowerblue;
+    color: white;
 }
 .main-title{
-    padding-top: 40px;
-    padding-bottom: 40px;
-    height: 40px;
+    margin-top: auto;
+    margin-bottom: auto;
+
 }
-.anchor-links{
-    width: auto;
-    height: 40px;
-    background: grey;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-.anchor-link{
+.my-links{
+    width: 100%;
+    height: 100%;
+    background: cornflowerblue;
+    border-radius: 10px;
     color: white;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 20px;
+    padding: 10px;
     text-decoration: none;
 }
-.page-body{
-    width: auto;
-    height: auto;
-    background: #54436A;
-}
-.block{
-    width: 600px;
-    height: 600px;
-    background: grey;
-}
-.title{
-    text-align: center;
-    line-height: 40px;
-    width: 40%;
-    height: 40px;
-    background: grey;
-    margin: 40px auto 0 auto;
-}
-h2{
-    margin: 0;
-}
-.section{
-    width: auto;
-    height: auto;
-    margin: 40px auto 40px auto;
-    background: lightpink;
-}
-.sec1{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px;
-}
-.sec2{
-    display: flex;
-    justify-content: space-evenly;
-    padding: 40px;
-}
-footer{
-    text-align: center;
+.my-block{
+    margin-bottom: 20px;
 }
